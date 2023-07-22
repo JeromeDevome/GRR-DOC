@@ -1,4 +1,4 @@
 ---
-title: '02. Mise à jour - Depuis version < 4'
+title: 'Mise à jour - Depuis version < 4'
 ---
 
