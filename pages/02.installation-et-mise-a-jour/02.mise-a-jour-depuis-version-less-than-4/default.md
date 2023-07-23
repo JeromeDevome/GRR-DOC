@@ -2,7 +2,6 @@
 title: 'Mise à jour - Depuis version < 4'
 ---
 
-
 !!! La mise à jour ne s'applique pas à l'offre MyGRR, l'ensemble de la prestation est comprise dans l'offre
 
 
@@ -76,3 +75,7 @@ La mise à jour est terminé
 ## 3.3 - Images
 
 Vous devrez insérer l'ensemble des images (logo, ressource...) via l'administration.
+
+## 3.4 - Sécurité
+
+Pour des raisons de sécurité, veuillez supprimer le dossier `installation` de votre serveur.
