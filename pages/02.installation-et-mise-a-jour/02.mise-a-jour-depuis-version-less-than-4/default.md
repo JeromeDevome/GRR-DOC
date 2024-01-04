@@ -10,7 +10,7 @@ title: 'Mise à jour - Depuis version < 4'
 Cette page vous explique comment procédé à une mise à jour à partir d'une version 1.X.X, 2.X.X ou 3.X.X de GRR vers la dernière version de GRR.
 Si vous êtes déjà en version 4, veuillez suivre la procédure simplifié  [Mise à jour - Depuis version >= 4](http://devome.com/GRR/DOC/installation-et-mise-a-jour/mise-a-jour-depuis-version-greater-than-4)
 
-Il est fortement de conseillé de vérifier et de mettre à jour son GRR régulièrement. Les mises à jour peuvent comporter des nouveautés, des corrections, des patchs de sécurité, et malheureusement des bogues.
+Il est fortement conseillé de vérifier et de mettre à jour son GRR régulièrement. Les mises à jour peuvent comporter des nouveautés, des corrections, des patchs de sécurité, et malheureusement des bogues.
 
 Vous pouvez faire des sauts de versions, il n'est pas nécessaire de mettre à jour votre GRR vers les versions que vous avez manqué. Une fois la base de données à jour, il est déconseillé de rétrograder de version.
 
