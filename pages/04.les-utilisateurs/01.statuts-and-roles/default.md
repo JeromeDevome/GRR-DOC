@@ -1,6 +1,8 @@
 ---
 title: 'Statuts & Rôles'
 published: true
+login:
+    visibility_requires_access: false
 ---
 
 Chaque utilisateur possède un statut ( visiteur, usager, gestionnaire d'utilisateur ou Administrateur). En plus de son statut l'utilisateur peut avoir des privilèges supplémentaire (Gestionnaire de ressource, administrateur de domaine...) .
