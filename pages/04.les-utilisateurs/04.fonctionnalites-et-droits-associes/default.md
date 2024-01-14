@@ -9,9 +9,9 @@ title: 'Fonctionnalités et droits associés'
 |Actions sur la base de données (restauration, sauvegarde, mise à jour)|X| | | | | | |
 |Création, modification, suppression des utilisateurs|X| | | |X| | |
 |Création, modification, suppression des types de réservation..|X| | | | | | |
-|Création, modification, suppression des domaines, des utilisateurs.|X|X (6)| | | | | |
-|Activation/désactivation d'un type de ressource|X|X (6)|X (4)| | | | |
-|Création, modification, suppression des ressources.|X|X (6)|X (4)| | | | |
+|Création, modification, suppression des domaines, des utilisateurs.|X|X _(6)_| | | | | |
+|Activation/désactivation d'un type de ressource|X|X _(6)_|X _(4)_| | | | |
+|Création, modification, suppression des ressources.|X|X _(6)_|X _(4)_| | | | |
 |Gestion des droits (mail automatique, accès aux domaines restreints, désignation des gestionnaires).|X|X (6)|X (4)| | | | |
 |Création, modification, suppression des champs additionnels|X|X (6)|X (4)| | | | |
 |Configuration des ressourcesModération des réservations d'une ressource|X|X (6)|X (4)|X (1)| | | |
