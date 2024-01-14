@@ -41,12 +41,12 @@ Concernant les ressources dont ils ont la charge, les gestionnaires peuvent :
 
 Un usager :
 
-    peut voir les réservations dans les domaines publics, réserver et modifier ou effacer ses propres réservations,
-    peut être prévenu par mail de la réservation d'une ressource ou de la modification/suppression de la réservation (voir rubrique plus bas),
-    a accès à la consultation de la disponibilité ou indisponibilité des ressources des domaines publics,
-    a accès au détail des réservations,
-    a accès à l'outil "Recherche - Rapports - Statistiques" (selon le paramétrage dans la configuration générale) ,
-    a accès à la gestion de son compte pour modifier ses paramètres personnels (mot de passe, email, affichage par défaut, ...)
+* peut voir les réservations dans les domaines publics, réserver et modifier ou effacer ses propres réservations,
+* peut être prévenu par mail de la réservation d'une ressource ou de la modification/suppression de la réservation (voir rubrique plus bas),
+* a accès à la consultation de la disponibilité ou indisponibilité des ressources des domaines publics,
+* a accès au détail des réservations,
+* a accès à l'outil "Recherche - Rapports - Statistiques" (selon le paramétrage dans la configuration générale) ,
+* a accès à la gestion de son compte pour modifier ses paramètres personnels (mot de passe, email, affichage par défaut, ...)
 
 Pour les domaines à accès restreint, seuls les usagers spécifiés par l'administrateur y ont accès. Les usagers autorisés y ont alors les mêmes possibilités que dans les domaines publics.
 Par défaut, un usager (ni même un gestionnaire ou un administrateur restreint de domaines) ne peut effectuer une réservation dans le passé, ni modifier ou supprimer une réservation passée. Seul l'administrateur a cette possibilité. Il est néanmoins possible de permettre, pour une ressource donnée, la réservation dans le passé ainsi que les modifications/suppressions de réservations passées.
@@ -55,10 +55,10 @@ Par défaut, un usager (ni même un gestionnaire ou un administrateur restreint 
 
 Le gestionnaire d'utilisateurs, en plus des possibilités d'un usager normal peut :
 
-    ajouter des utilisateurs ayant pour statut "usager" ou "visiteur",
-    modifier un utilisateur ayant pour statut "usager" ou "visiteur", (nom, prénom, mot de passe, email, statut, etat),
-    supprimer un utilisateur ayant pour statut "usager" ou "visiteur",
-    importer dans GRR un fichier d'utilisateurs (format CSV)
+* ajouter des utilisateurs ayant pour statut "usager" ou "visiteur",
+* modifier un utilisateur ayant pour statut "usager" ou "visiteur", (nom, prénom, mot de passe, email, statut, etat),
+* supprimer un utilisateur ayant pour statut "usager" ou "visiteur",
+* importer dans GRR un fichier d'utilisateurs (format CSV)
 
 ### g) Les visiteurs
 
