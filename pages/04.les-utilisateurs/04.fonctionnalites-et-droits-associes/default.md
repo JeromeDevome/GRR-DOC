@@ -2,7 +2,8 @@
 title: 'Fonctionnalités et droits associés'
 ---
 
-### Table
+### Table des fonctionnalités selon statut et rôles
+
 |Fonctionnalités|Administrateurs|Administrateur restreint de sites _(module "multi-sites" activé)_|Administrateur restreint de domaines|Gestionnaires de ressources|Gestionnaires d'utilisateurs|Usagers|Visiteurs|
 |--- |:---: |:---: |:---: |:---: |:---: |:---: |:---: |
 |Paramétrage général, suivi des connexions, calendrier des jours fériés ...|X| | | | | | |
