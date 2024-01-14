@@ -1,3 +1,7 @@
+---
+title: 'Configuration générale'
+---
+
 La configuration générale de **GRR** s'organise en sept parties :
 * Contenu
 * Apparence
