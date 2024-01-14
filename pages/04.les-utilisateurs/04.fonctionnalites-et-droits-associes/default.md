@@ -5,7 +5,7 @@ title: 'Fonctionnalités et droits associés'
 ### Table
 |Fonctionnalités|Administrateurs|Administrateur restreint de sites (module "multi-sites" activé)|Administrateur restreint de domaines|Gestionnaires de ressources|Gestionnaires d'utilisateurs|Usagers|Visiteurs|
 |--- |--- |--- |--- |--- |--- |--- |--- |
-|Paramétrage général, suivi des connexions, calendrier des jours fériés ...|X|||||||
+|Paramétrage général, suivi des connexions, calendrier des jours fériés ...|X| | | | | | |
 |Actions sur la base de données (restauration, sauvegarde, mise à jour)|X|||||||
 |Création, modification, suppression des utilisateurs|X||||X|||
 |Création, modification, suppression des types de réservation..|X|||||||
