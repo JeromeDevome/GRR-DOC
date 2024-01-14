@@ -1,6 +1,5 @@
 ---
 title: 'Statuts & Rôles'
-published: true
 login:
     visibility_requires_access: false
 ---
