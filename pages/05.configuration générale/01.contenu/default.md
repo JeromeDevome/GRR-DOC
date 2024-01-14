@@ -2,13 +2,11 @@
 title: Contenu
 ---
 
+**Nom de l'établissement :** affiché à divers endroits (Page de connexion, bandeau du haut...)
 
+**Adresse du site :** aour un maximum de compatibilité il faut qu'elle termine par un  "**/**" _( exemple : https://devome.com/GRR**/** )_
 
-**Nom de l'établissement :** Affiché à divers endroits (Page de connexion, bandeau du haut...)
-
-**Adresse du site :** Pour un maximum de compatibilité il faut qu'elle termine par un  "/" _( exemple : https://devome.com/GRR/ )_
-
-**Nom et prénom du gestionnaire du site**
+**Nom et prénom du gestionnaire du site :** utilisé pour la page contact
 
 **Adresse e-mail du gestionnaire du site** et adresse **e-mail du support technique** :  Pour saisir plusieurs adresses, veuillez les séparer par des points virgules _( exemple1@devome.com;exemple2@devome.com )_
 
@@ -22,4 +20,4 @@ title: Contenu
 
 **Dates de début et fin des réservations :** pas de réservation possible en dehors de ces dates. **Attention :** Agrandir la plage n'a pas d'incidence mais la réduire entraine la suppression de toute les réservations en de hors de la nouvelle plage définit, **action irréversible**.
 
-**Message personnalisé :** s'affichera en-dessous du bandeau supérieur, il peut contenir du texte, des images, couleurs
+**Message personnalisé :** affiché dans le bas du bandeau supérieur, il peut contenir du texte, des images, couleurs.
