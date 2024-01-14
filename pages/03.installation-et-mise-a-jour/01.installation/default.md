@@ -19,8 +19,6 @@ Pour obtenir la dernière version de GRR, veuillez télécharger l'archive sur G
 GRR, fonction sur un serveur web avec PHP et MySQL. Nous de détaillerons pas l'installation de ces derniers dans la procédure, ce ceux peuvent varier selon le type serveur que vous avez. L'espace disque minimum requis est conseillé à 200Mo pour le code de GRR. Le processeur et la RAM dépendent du type de serveur.
 
 
-### Table
-
 | Version de GRR       | Service                       | Mini & Max       |
 | :-------------------------- | :---------------------------: | -------------------: |
 | 4.0 							 | PHP							  | 7.2.5 à 8.1.X    |
