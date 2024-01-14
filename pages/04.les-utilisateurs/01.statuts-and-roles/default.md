@@ -15,17 +15,17 @@ L'administrateur a accès à l’ensemble des fonctionnalités de l’applicatio
 Lorsque la fonctionnalité "multi-sites" est activée, il est possible de définir des "sites", qui sont des unités qui regroupent des domaines. Il est alors possible de définir des administrateurs de sites.
 En plus de ses droits normaux, l'administrateur d'un site a la possibilité de gérer entièrement un site : création, suppression, modification d'un domaine ou d'une ressource, ajout et suppression de gestionnaires des réservations, d'administrateur de domaines, gestion des mails automatiques.
 
-c) Les administrateurs restreints de domaines
+### c) Les administrateurs restreints de domaines
 
 Un administrateur de domaines est à la base un « usager » (voir plus bas) à qui l'administrateur a donné des droits supplémentaires pour administrer tel ou tel domaine.
 
 Concernant les domaines dont ils ont la charge, les administrateurs restreints peuvent, pour le(s) domaine(s) qu'ils administrent :
 
-    créer, modifier ou supprimer des ressources,
-    dans le cas d'un domaine à accès restreint, ajouter ou supprimer des utilisateurs autorisés à avoir accès au domaine,
-    gérer la liste des utilisateurs à avertir automatiquement par mail lors des réservations d'une ressources donnée,
-    gérer la liste des gestionnaires pour chaque ressource du domaine (voir plus bas),
-    activer ou désactiver un ou plusieurs types de réservation pour le domaine.
+* créer, modifier ou supprimer des ressources,
+* dans le cas d'un domaine à accès restreint, ajouter ou supprimer des utilisateurs autorisés à avoir accès au domaine,
+* gérer la liste des utilisateurs à avertir automatiquement par mail lors des réservations d'une ressources donnée,
+* gérer la liste des gestionnaires pour chaque ressource du domaine (voir plus bas),
+* activer ou désactiver un ou plusieurs types de réservation pour le domaine.
 
 ### d) Les gestionnaires
 
@@ -33,15 +33,14 @@ Un gestionnaire est à la base un « usager » (voir plus bas) à qui l'administ
 
 Concernant les ressources dont ils ont la charge, les gestionnaires peuvent :
 
-    supprimer ou modifier n'importe quelle réservation,
-    être prévenus par mail de la réservation d'une ressource ou de la modification/suppression de la réservation (voir rubrique plus bas),
-    signaler qu'une réservation est en cours d'utilisation (sur les plannings, un symbole spécifique apparaît alors dans la case de la réservation),
-    rendre temporairement indisponible à la réservation une ressource (pour maintenance par exemple).
+* supprimer ou modifier n'importe quelle réservation,
+* être prévenus par mail de la réservation d'une ressource ou de la modification/suppression de la réservation (voir rubrique plus bas),
+* signaler qu'une réservation est en cours d'utilisation (sur les plannings, un symbole spécifique apparaît alors dans la case de la réservation),
+* rendre temporairement indisponible à la réservation une ressource (pour maintenance par exemple).
 
 ### e) Les usagers
 
 Un usager :
-
 * peut voir les réservations dans les domaines publics, réserver et modifier ou effacer ses propres réservations,
 * peut être prévenu par mail de la réservation d'une ressource ou de la modification/suppression de la réservation (voir rubrique plus bas),
 * a accès à la consultation de la disponibilité ou indisponibilité des ressources des domaines publics,
@@ -55,7 +54,6 @@ Par défaut, un usager (ni même un gestionnaire ou un administrateur restreint 
 ### f) Les usagers "gestionnaires d'utilisateurs"
 
 Le gestionnaire d'utilisateurs, en plus des possibilités d'un usager normal peut :
-
 * ajouter des utilisateurs ayant pour statut "usager" ou "visiteur",
 * modifier un utilisateur ayant pour statut "usager" ou "visiteur", (nom, prénom, mot de passe, email, statut, etat),
 * supprimer un utilisateur ayant pour statut "usager" ou "visiteur",
