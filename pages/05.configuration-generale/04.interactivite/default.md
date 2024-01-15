@@ -63,5 +63,4 @@ Pour effectuer ces tâches automatiques de suppression, il y a deux configuratio
 *  	Avantage : Lancé automatiquement à l'heure configuré
 *  	Inconvénients : Configuration de tâche sur le serveur, maintenance supplémentaire en cas de changement
 
-
-!!! L'option 2 n'ai pas disponible dans l'offre MyGRR
+! L'option 2 n'ai pas disponible dans l'offre MyGRR
