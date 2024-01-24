@@ -40,7 +40,7 @@ Permettre aux personnes non connecté de demander la création d'un compte. Le f
 
 L'utilisateur devra renseigner son nom, prénom, e-mail et mot de passe, une fois. Le gestionnaire d'utilisateur ou l'administrateur pourra valider ou non la demande en lui assignant un identifiant et un statut.
 
-!! Avertissement : Il est conseiller d'activer l’envoi de mail, dans le cas contraire l'utilisateur ne pourra recevoir son identifiant.
+! Avertissement : Il est conseiller d'activer l’envoi de mail, dans le cas contraire l'utilisateur ne pourra recevoir son identifiant.
 
 **Format de l'identifiant :** Forme sous la laquelle sera proposer la création de son identifiant (Nom, prénom, nom.prénom...) . Le gestionnaire peut modifier l'identifiant avant de valider la création de compte.
 
