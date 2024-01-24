@@ -29,7 +29,7 @@ Cocher la case **Envoyer une copie à l'utilisateur** pour que ce dernier reçoi
 
 !!! Texte avant le formulaire : Nouveauté 4.3.0
 
-Permet de définir un texte sur la page qui sera affiché juste avant le formulaire de contact.
+**Texte avant le formulaire :** Permet de définir un texte sur la page qui sera affiché juste avant le formulaire de contact.
 
 
 ### Demande de création de compte
