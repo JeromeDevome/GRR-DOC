@@ -24,7 +24,7 @@ En cas de perte de donnée ou de problème sur la base GRR, cette fonction vous 
 
 ### Exécution automatique de la sauvegarde
 
-!! MyGRR Cloud : Les serveurs sont sauvegardés automatiquement tout les jours
+!!! MyGRR Cloud : Les serveurs sont sauvegardés automatiquement tout les jours
 
 Une sauvegarde automatique peut être déclenchée par l'exécution du script « admin_save_mysql.php », par exemple en programmant son exécution à l'aide d'une tâche « cron ».
 Pour activer cette fonctionnalité, vous devez définir ci-dessous un mot de passe.
