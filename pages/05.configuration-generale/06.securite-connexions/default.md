@@ -4,7 +4,7 @@ title: 'Sécurité / Connexions'
 
 ### Sauvegarde de la base GRR
 
-!! MyGRR Cloud : Les serveurs sont sauvegardés automatiquement tout les jours
+!!! MyGRR Cloud : Les serveurs sont sauvegardés automatiquement tout les jours
 
 !!!! N'hésitez pas à faire des sauvegardes régulières, surtout avant de faire des mises à jours ou des modifications de configuration majeures.
 
