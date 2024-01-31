@@ -13,4 +13,4 @@ Ensuite, pour chaque domaine, il est possible d'activer ou de désactiver un ou 
 
 Le type de réservation est obligatoire dans la réservation.
 
-! Astuce : Si vous ne souhaitez pas utiliser la fonction, laissé un seul type de réservation. Ce dernier sera donc sélectionné par défaut lors de la réservation.
+!!! Astuce : Si vous ne souhaitez pas utiliser la fonction, laissé un seul type de réservation. Ce dernier sera donc sélectionné par défaut lors de la réservation.
