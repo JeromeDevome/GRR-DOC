@@ -10,7 +10,7 @@ En ce qui concerne les réservations avec périodicité, ces journées sont igno
 
 ### Les vacances et les jours fériés
 
-! Cette fonctionnalité est actif à conditions qu' "Afficher les vacances scolaires et les jours fériés" soit actif (Configuration générale / Apparence)
+!!! Cette fonctionnalité est actif à conditions qu' "Afficher les vacances scolaires et les jours fériés" soit actif (Configuration générale / Apparence)
 
 Après avoir choisi de définir soit les jours fériés, soit les vacances scolaires, une page s'ouvre avec un calendrier dans lequel l'administrateur va cocher les jours.
 Une option d'importation des jours fériés français ou des vacances scolaires françaises est mise en œuvre. Il est possible d'ajuster en cochant des jours supplémentaires ou en décochant des jours excédentaires.
