@@ -33,13 +33,13 @@ Deux choix :
 * Durée par défaut d'une réservation
 __________________________________________________________________________________________________________________
 
-###### Exemple 1 :
-Pour mettre en place des réservations entre 8 h et 19 h, avec un pas de 15 minutes (900 secondes), la configuration doit être la suivante :
-
-* Heure de début de journée : 8
-* Heure de fin de journée : 18
-* Nombre de minutes à ajouter à l'heure de fin de journée pour avoir la fin réelle d'une journée : 45
-* Plus petit bloc réservable, en secondes (1800 secondes = 1/2 heure) : 900
+> ###### Exemple 1 :
+> Pour mettre en place des réservations entre 8 h et 19 h, avec un pas de 15 minutes (900 secondes), la configuration doit être la suivante :
+> 
+> * Heure de début de journée : 8
+> * Heure de fin de journée : 18
+> * Nombre de minutes à ajouter à l'heure de fin de journée pour avoir la fin réelle d'une journée : 45
+> * Plus petit bloc réservable, en secondes (1800 secondes = 1/2 heure) : 900
 __________________________________________________________________________________________________________________
 
 ###### Exemple 2 :
