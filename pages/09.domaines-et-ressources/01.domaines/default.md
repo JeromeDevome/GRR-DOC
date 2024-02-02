@@ -56,7 +56,7 @@ ________________________________________________________________________________
 
 Il ne s'agit pas du mode normal de fonctionnement de **GRR**. N'utilisez ce mode uniquement dans le cas où le mode précédent ne correspond pas à votre cas de figure, c'est-à-dire lorsque vos créneaux de réservation sont de taille inégales et ne peuvent pas se subdiviser en blocs de tailles égales ou bien lorsque les créneaux ne couvrent pas uniformément la plage de début à la fin.
 
-> * ###### Exemple :
+> ###### Exemple :
 > * Créneau 1 : 8h10 - 9h00
 > * Créneau 2 : 9h00 - 9h50
 > * Créneau 3 : 10h05 - 10h55
