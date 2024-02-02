@@ -40,6 +40,7 @@ Deux choix :
 > * Nombre de minutes à ajouter à l'heure de fin de journée pour avoir la fin réelle d'une journée : 45
 > * Plus petit bloc réservable, en secondes (1800 secondes = 1/2 heure) : 900
 
+___
 
 > ###### Exemple 2 :
 > Pour mettre en place deux créneaux de réservations 8 h - 14 h et 14 h - 20 h, soit des bloc de réservation de 6 h (21600 secondes), la configuration doit être la suivante :
