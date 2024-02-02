@@ -56,20 +56,20 @@ ________________________________________________________________________________
 
 Il ne s'agit pas du mode normal de fonctionnement de **GRR**. N'utilisez ce mode uniquement dans le cas où le mode précédent ne correspond pas à votre cas de figure, c'est-à-dire lorsque vos créneaux de réservation sont de taille inégales et ne peuvent pas se subdiviser en blocs de tailles égales ou bien lorsque les créneaux ne couvrent pas uniformément la plage de début à la fin.
 
-> ###### Exemple :
-> Créneau 1 : 8h10 - 9h00
-> Créneau 2 : 9h00 - 9h50
-> Créneau 3 : 10h05 - 10h55
-> Créneau 4 : 10h55 - 11h45
-> Créneau 5 : 11h45 - 12h35
-> Créneau 7 : 12h35 - 13h00
-> Créneau 8 : 13h00 - 13h50
-> Créneau 9 : 13h50 - 14h40
-> Créneau 10 : 14h40 - 15h30
-> Créneau 11 : 15h45 - 16h35
-> Créneau 12 : 16h35 - 17h25
-> Créneau 13 : 17h25 - 18h30
-> Créneau 14 : 18h30 - 19h30
+> * ###### Exemple :
+> * Créneau 1 : 8h10 - 9h00
+> * Créneau 2 : 9h00 - 9h50
+> * Créneau 3 : 10h05 - 10h55
+> * Créneau 4 : 10h55 - 11h45
+> * Créneau 5 : 11h45 - 12h35
+> * Créneau 7 : 12h35 - 13h00
+> * Créneau 8 : 13h00 - 13h50
+> * Créneau 9 : 13h50 - 14h40
+> * Créneau 10 : 14h40 - 15h30
+> * Créneau 11 : 15h45 - 16h35
+> * Créneau 12 : 16h35 - 17h25
+> * Créneau 13 : 17h25 - 18h30
+> * Créneau 14 : 18h30 - 19h30
 
 #### Durée maximale d'une réservation pour une ressource donnée
 Il est possible de définir une durée maximale pour une réservation donnée. Dans ce cas, une réservation ne pourra pas excéder une durée limite, suivant les propriétés suivantes :
