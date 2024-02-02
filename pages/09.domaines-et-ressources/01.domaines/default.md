@@ -32,7 +32,7 @@ Deux choix :
 * Plus petit bloc réservable, en secondes (1800 secondes = 1/2 heure) : voir exemples ci-dessous
 * Durée par défaut d'une réservation
 
-###### Exemple 1
+###### Exemple 1 :
 Pour mettre en place des réservations entre 8 h et 19 h, avec un pas de 15 minutes (900 secondes), la configuration doit être la suivante :
 
 * Heure de début de journée : 8
@@ -40,7 +40,7 @@ Pour mettre en place des réservations entre 8 h et 19 h, avec un pas de 15 minu
 * Nombre de minutes à ajouter à l'heure de fin de journée pour avoir la fin réelle d'une journée : 45
 * Plus petit bloc réservable, en secondes (1800 secondes = 1/2 heure) : 900
 
-###### Exemple 2
+###### Exemple 2 :
 Pour mettre en place deux créneaux de réservations 8 h - 14 h et 14 h - 20 h, soit des bloc de réservation de 6 h (21600 secondes), la configuration doit être la suivante :
 
 * Heure de début de journée : 8
@@ -51,7 +51,7 @@ Pour mettre en place deux créneaux de réservations 8 h - 14 h et 14 h - 20 h, 
 ##### 2. Les créneaux de réservation sont basés sur des intitulés pré-définis :
 
 Il ne s'agit pas du mode normal de fonctionnement de **GRR**. N'utilisez ce mode uniquement dans le cas où le mode précédent ne correspond pas à votre cas de figure, c'est-à-dire lorsque vos créneaux de réservation sont de taille inégales et ne peuvent pas se subdiviser en blocs de tailles égales ou bien lorsque les créneaux ne couvrent pas uniformément la plage de début à la fin.
-
+===
 ###### Exemple :
 Créneau 1 : 8h10 - 9h00
 Créneau 2 : 9h00 - 9h50
