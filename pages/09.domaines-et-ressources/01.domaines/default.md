@@ -31,7 +31,6 @@ Deux choix :
 * Nombre de minutes à ajouter à l'heure de fin de journée pour avoir la fin réelle d'une journée : voir exemples ci-dessous
 * Plus petit bloc réservable, en secondes (1800 secondes = 1/2 heure) : voir exemples ci-dessous
 * Durée par défaut d'une réservation
-
 __________________________________________________________________________________________________________________
 
 ###### Exemple 1 :
@@ -41,7 +40,6 @@ Pour mettre en place des réservations entre 8 h et 19 h, avec un pas de 15 minu
 * Heure de fin de journée : 18
 * Nombre de minutes à ajouter à l'heure de fin de journée pour avoir la fin réelle d'une journée : 45
 * Plus petit bloc réservable, en secondes (1800 secondes = 1/2 heure) : 900
-
 __________________________________________________________________________________________________________________
 
 ###### Exemple 2 :
@@ -57,7 +55,6 @@ ________________________________________________________________________________
 ##### 2. Les créneaux de réservation sont basés sur des intitulés pré-définis :
 
 Il ne s'agit pas du mode normal de fonctionnement de **GRR**. N'utilisez ce mode uniquement dans le cas où le mode précédent ne correspond pas à votre cas de figure, c'est-à-dire lorsque vos créneaux de réservation sont de taille inégales et ne peuvent pas se subdiviser en blocs de tailles égales ou bien lorsque les créneaux ne couvrent pas uniformément la plage de début à la fin.
-
 __________________________________________________________________________________________________________________
 
 ###### Exemple :
@@ -74,6 +71,7 @@ Créneau 11 : 15h45 - 16h35
 Créneau 12 : 16h35 - 17h25
 Créneau 13 : 17h25 - 18h30
 Créneau 14 : 18h30 - 19h30
+__________________________________________________________________________________________________________________
 
 #### Durée maximale d'une réservation pour une ressource donnée
 Il est possible de définir une durée maximale pour une réservation donnée. Dans ce cas, une réservation ne pourra pas excéder une durée limite, suivant les propriétés suivantes :
