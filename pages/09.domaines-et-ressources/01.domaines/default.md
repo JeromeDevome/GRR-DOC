@@ -31,7 +31,6 @@ Deux choix :
 * Nombre de minutes à ajouter à l'heure de fin de journée pour avoir la fin réelle d'une journée : voir exemples ci-dessous
 * Plus petit bloc réservable, en secondes (1800 secondes = 1/2 heure) : voir exemples ci-dessous
 * Durée par défaut d'une réservation
-__________________________________________________________________________________________________________________
 
 > ###### Exemple 1 :
 > Pour mettre en place des réservations entre 8 h et 19 h, avec un pas de 15 minutes (900 secondes), la configuration doit être la suivante :
@@ -40,38 +39,36 @@ ________________________________________________________________________________
 > * Heure de fin de journée : 18
 > * Nombre de minutes à ajouter à l'heure de fin de journée pour avoir la fin réelle d'une journée : 45
 > * Plus petit bloc réservable, en secondes (1800 secondes = 1/2 heure) : 900
-__________________________________________________________________________________________________________________
 
-###### Exemple 2 :
-Pour mettre en place deux créneaux de réservations 8 h - 14 h et 14 h - 20 h, soit des bloc de réservation de 6 h (21600 secondes), la configuration doit être la suivante :
 
-* Heure de début de journée : 8
-* Heure de fin de journée : 14
-* Nombre de minutes à ajouter à l'heure de fin de journée pour avoir la fin réelle d'une journée : 0
-* Plus petit bloc réservable, en secondes (1800 secondes = 1/2 heure) : 21600
+> ###### Exemple 2 :
+> Pour mettre en place deux créneaux de réservations 8 h - 14 h et 14 h - 20 h, soit des bloc de réservation de 6 h (21600 secondes), la configuration doit être la suivante :
+> 
+> * Heure de début de journée : 8
+> * Heure de fin de journée : 14
+> * Nombre de minutes à ajouter à l'heure de fin de journée pour avoir la fin réelle d'une journée : 0
+> * Plus petit bloc réservable, en secondes (1800 secondes = 1/2 heure) : 21600
 
 __________________________________________________________________________________________________________________
 
 ##### 2. Les créneaux de réservation sont basés sur des intitulés pré-définis :
 
 Il ne s'agit pas du mode normal de fonctionnement de **GRR**. N'utilisez ce mode uniquement dans le cas où le mode précédent ne correspond pas à votre cas de figure, c'est-à-dire lorsque vos créneaux de réservation sont de taille inégales et ne peuvent pas se subdiviser en blocs de tailles égales ou bien lorsque les créneaux ne couvrent pas uniformément la plage de début à la fin.
-__________________________________________________________________________________________________________________
 
-###### Exemple :
-Créneau 1 : 8h10 - 9h00
-Créneau 2 : 9h00 - 9h50
-Créneau 3 : 10h05 - 10h55
-Créneau 4 : 10h55 - 11h45
-Créneau 5 : 11h45 - 12h35
-Créneau 7 : 12h35 - 13h00
-Créneau 8 : 13h00 - 13h50
-Créneau 9 : 13h50 - 14h40
-Créneau 10 : 14h40 - 15h30
-Créneau 11 : 15h45 - 16h35
-Créneau 12 : 16h35 - 17h25
-Créneau 13 : 17h25 - 18h30
-Créneau 14 : 18h30 - 19h30
-__________________________________________________________________________________________________________________
+> ###### Exemple :
+> Créneau 1 : 8h10 - 9h00
+> Créneau 2 : 9h00 - 9h50
+> Créneau 3 : 10h05 - 10h55
+> Créneau 4 : 10h55 - 11h45
+> Créneau 5 : 11h45 - 12h35
+> Créneau 7 : 12h35 - 13h00
+> Créneau 8 : 13h00 - 13h50
+> Créneau 9 : 13h50 - 14h40
+> Créneau 10 : 14h40 - 15h30
+> Créneau 11 : 15h45 - 16h35
+> Créneau 12 : 16h35 - 17h25
+> Créneau 13 : 17h25 - 18h30
+> Créneau 14 : 18h30 - 19h30
 
 #### Durée maximale d'une réservation pour une ressource donnée
 Il est possible de définir une durée maximale pour une réservation donnée. Dans ce cas, une réservation ne pourra pas excéder une durée limite, suivant les propriétés suivantes :
@@ -82,9 +79,7 @@ Cette limitation ne touche pas les administrateurs et gestionnaires des ressourc
 
 !!! Remarque : actuellement, les journées hors réservation sont prises en compte dans le calcul de la longueur d’une réservation.
 
-__________________________________________________________________________________________________________________
-
-###### Exemple :
-Supposons que la limite soit fixée à trois jours et que le week-end soit hors réservation. Une réservation débutant le vendredi matin et se terminant le lundi soir ne sera pas acceptée car **GRR** considère à tort que la réservation dure 4 jours.
+> ###### Exemple :
+> Supposons que la limite soit fixée à trois jours et que le week-end soit hors réservation. Une réservation débutant le vendredi matin et se terminant le lundi soir ne sera pas acceptée car **GRR** considère à tort que la réservation dure 4 jours.
 
 __________________________________________________________________________________________________________________
