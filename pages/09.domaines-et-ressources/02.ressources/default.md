@@ -28,6 +28,8 @@ Chaque ressource peut posséder une configuration différente des unes des autre
 
 #### Configuration des fonctionnalités
 
+!! En cours  de rédaction
+
 * on peut définir un nombre maximum de réservations par utilisateur, pour une ressource donnée. Par défaut (valeur -1) il n'y a pas de restriction.
 * Attention : ces restrictions ne s'appliquent pas aux administrateurs généraux ainsi qu'aux administrateurs restreints du domaine ou aux gestionnaires chargés d'administrer la ressource.
 * Vous pouvez également définir, dans la configuration générale de GRR, un nombre maximal de réservations qui s'applique toutes ressources confondues.
