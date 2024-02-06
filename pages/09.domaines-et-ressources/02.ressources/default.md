@@ -4,3 +4,21 @@ title: Ressources
 
 Une ressource est un élément réservable (Une salle, une voiture, un vidéoprojecteur, une personne...). Chaque ressource appartient à un unique domaine.
 
+**Pour chaque ressource :**
+* on peut définir un nombre maximum de réservations par utilisateur, pour une ressource donnée. Par défaut (valeur -1) il n'y a pas de restriction.
+* Attention : ces restrictions ne s'appliquent pas aux administrateurs généraux ainsi qu'aux administrateurs restreints du domaine ou aux gestionnaires chargés d'administrer la ressource.
+* Vous pouvez également définir, dans la configuration générale de GRR, un nombre maximal de réservations qui s'applique toutes ressources confondues.
+* Possibilité de définir un nombre maximal de jours au-delà duquel l'utilisateur ne peut pas réserver ou modifier une réservation.
+* Exemple : une valeur égale à 30 signifie qu'un utilisateur ne peut réserver une ressource que 30 jours à l'avance au maximum. Cette limitation ne touche pas les gestionnaires de la ressources ainsi que les administrateurs du domaine.
+* Possibilité de définir un temps en minutes en-deçà duquel l'utilisateur ne peut pas réserver ou modifier une réservation (0 si pas de restriction).
+* Exemple : une valeur égale à 60 signifie qu'un utilisateur ne peut pas réserver une ressource ou modifier une réservation moins de 60 minutes avant le début de la réservation.
+* Cette limitation ne touche pas les gestionnaires de la ressources ainsi que les administrateurs du domaine.
+* Possibilité (case à cocher) de permettre ou non les réservation dans le passé ainsi que les modifications et suppressions de réservations passées.
+* Si la case n'est pas cochée, un usager (ni même un gestionnaire ou un administrateur restreint de domaines) ne peut effectuer une réservation dans le passé, ni modifier ou supprimer une réservation passée. Seul l'administrateur général a cette possibilité.
+* L'administrateur et le(s) gestionnaire(s) désigné(s) ont la possibilité de déclarer la ressource « temporairement indisponible ». Ceci est alors clairement signalé sur les plannings de réservation (« jour » et « semaine ») et a pour effet de rendre impossible toute nouvelle réservation et toute modification de réservations existantes (sauf pour l'administrateur et les gestionnaires de la ressource).
+* L'administrateur et le(s) gestionnaire(s) désigné(s) peuvent choisir de rendre visible ou non la fiche de présentation d'une ressource. Pour cette fiche, ils disposent d'un champ permettant une description complète de la ressource. Ce champ dispose d'une barre d'outils de mise en forme utilisant l'application ckEditor. (Il est possible de désactiver cette fonctionnalité dans la page de configuration générale de GRR. Le répertoire "ckeditor" et tout ce qu'il contient n'est alors pas nécessaire au bon fonctionnement de GRR.)
+* On peut également choisir une image pour la ressource qui sera alors visible dans la fiche de présentation.
+* Dans la page de modification des paramètres d'une ressource, l'administrateur a la possibilité d'activer la fonction « Poser des réservations sous réserve ». Dans ce cas, la personne effectuant une réservation a la possibilité de remplir un champ supplémentaire : « Réservation à confirmer au plus tard le ... ». Si l'utilisateur ne confirme pas sa réservation avant la date indiquée, la réservation est automatiquement supprimée et un mail automatique est envoyé aux personnes concernées.
+* Possibilité, sous certaines conditions, de changer l'affectation d'une ressource à un domaine.
+* Possibilité d'activer la fonctionnalité "gestion des clés".
+
