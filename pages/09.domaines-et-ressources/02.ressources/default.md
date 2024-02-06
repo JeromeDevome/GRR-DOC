@@ -11,16 +11,22 @@ Chaque ressource peut posséder une configuration différente des unes des autre
 * Une **description**, elle serra affichée juste en dessous du nom de la ressource dans les vues plannings.
 * Un **domaine** au qu'elle elle est rattachée.
 * Un **ordre d'affichage**, qui sera utile dans l'affichage du menu ou dans les vues comportant toute les ressources d'un domaine.
-* Un droit de visibilité sur la ressource (**Qui peut voir cette ressource ?**)
+* Un droit de visibilité sur la ressource (**Qui peut voir cette ressource ?**). Si le domaine est en restreint, ce droit ne substitut pas à l'accès au domaine en question.
  * N'importe qui allant sur le site même s'il n'est pas connecté
  * Il faut obligatoirement être connecté, même en simple visiteur.
-										<option value="2">Il faut obligatoirement être connecté et avoir le statut "utilisateur" </option>
-										<option value="3">Il faut obligatoirement être connecté et être au moins gestionnaire d'une ressource</option>
-										<option value="4">Il faut obligatoirement se connecter et être au moins administrateur du domaine</option>
-																					<option value="5">Il faut obligatoirement être connecté et être administrateur de site</option>
-																				<option value="6">Il faut obligatoirement être connecté et être administrateur général</option>
-									</select>
+ * Il faut obligatoirement être connecté et avoir le statut "utilisateur"
+ * Il faut obligatoirement être connecté et être au moins gestionnaire d'une ressource
+ * Il faut obligatoirement se connecter et être au moins administrateur du domaine
+ * Il faut obligatoirement être connecté et être administrateur de site
+ * Il faut obligatoirement être connecté et être administrateur général
+* **Déclarer cette ressource temporairement non disponible.** Les réservations sont alors impossibles. La restriction ne s'applique pas aux gestionnaires de la ressource et aux administrateurs.
+* **Rendre visible la fiche de présentation de la ressource dans l'interface publique.** Dans cas il y ara une loupe sur la vue planning, lors d'un clic sur celle-ci la fiche de la ressource s'ouvre. Elle comprend nom, description, capacité, image.
+* **Choisir une image de la ressource pour la fiche de présentation.** Une seule image est possible par ressource.
+* **Supprimer l'image actuelle de la ressource.** Dans ce cas après validation, l'image sera simplement supprimé du serveur.
+* **Afficher la description complète dans le titre des plannings.** Si la case est coché elle s'affichera en dessous du nom et de la description.
+* Une **Description complète** qui permet d'écrire un texte avec mise en forme (liste, gras, surligner, tableau, lien).
 
+#### Configuration des fonctionnalités
 
 * on peut définir un nombre maximum de réservations par utilisateur, pour une ressource donnée. Par défaut (valeur -1) il n'y a pas de restriction.
 * Attention : ces restrictions ne s'appliquent pas aux administrateurs généraux ainsi qu'aux administrateurs restreints du domaine ou aux gestionnaires chargés d'administrer la ressource.
