@@ -4,7 +4,24 @@ title: Ressources
 
 Une ressource est un élément réservable (Une salle, une voiture, un vidéoprojecteur, une personne...). Chaque ressource appartient à un unique domaine.
 
-**Pour chaque ressource :**
+Chaque ressource peut posséder une configuration différente des unes des autres, qui vient s'ajouter aux paramètre du domaine au qu'elle elle est rattachée.
+
+#### Renseignements divers
+* Un **nom** qui sera afficher dans le planning et les statistiques.
+* Une **description**, elle serra affichée juste en dessous du nom de la ressource dans les vues plannings.
+* Un **domaine** au qu'elle elle est rattachée.
+* Un **ordre d'affichage**, qui sera utile dans l'affichage du menu ou dans les vues comportant toute les ressources d'un domaine.
+* Un droit de visibilité sur la ressource (**Qui peut voir cette ressource ?**)
+* * N'importe qui allant sur le site même s'il n'est pas connecté
+* * Il faut obligatoirement être connecté, même en simple visiteur.
+										<option value="2">Il faut obligatoirement être connecté et avoir le statut "utilisateur" </option>
+										<option value="3">Il faut obligatoirement être connecté et être au moins gestionnaire d'une ressource</option>
+										<option value="4">Il faut obligatoirement se connecter et être au moins administrateur du domaine</option>
+																					<option value="5">Il faut obligatoirement être connecté et être administrateur de site</option>
+																				<option value="6">Il faut obligatoirement être connecté et être administrateur général</option>
+									</select>
+
+
 * on peut définir un nombre maximum de réservations par utilisateur, pour une ressource donnée. Par défaut (valeur -1) il n'y a pas de restriction.
 * Attention : ces restrictions ne s'appliquent pas aux administrateurs généraux ainsi qu'aux administrateurs restreints du domaine ou aux gestionnaires chargés d'administrer la ressource.
 * Vous pouvez également définir, dans la configuration générale de GRR, un nombre maximal de réservations qui s'applique toutes ressources confondues.
