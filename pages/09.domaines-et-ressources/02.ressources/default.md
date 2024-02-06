@@ -12,8 +12,8 @@ Chaque ressource peut posséder une configuration différente des unes des autre
 * Un **domaine** au qu'elle elle est rattachée.
 * Un **ordre d'affichage**, qui sera utile dans l'affichage du menu ou dans les vues comportant toute les ressources d'un domaine.
 * Un droit de visibilité sur la ressource (**Qui peut voir cette ressource ?**)
-* * N'importe qui allant sur le site même s'il n'est pas connecté
-* * Il faut obligatoirement être connecté, même en simple visiteur.
+ * N'importe qui allant sur le site même s'il n'est pas connecté
+ * Il faut obligatoirement être connecté, même en simple visiteur.
 										<option value="2">Il faut obligatoirement être connecté et avoir le statut "utilisateur" </option>
 										<option value="3">Il faut obligatoirement être connecté et être au moins gestionnaire d'une ressource</option>
 										<option value="4">Il faut obligatoirement se connecter et être au moins administrateur du domaine</option>
