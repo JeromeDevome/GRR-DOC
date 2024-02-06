@@ -21,9 +21,10 @@ GRR, fonction sur un serveur web avec PHP et MySQL. Nous de détaillerons pas l'
 
 | Version de GRR       | Service                       | Mini & Max       |
 | :-------------------------- | :---------------------------: | -------------------: |
-| 4.0 							 | PHP							  | 7.2.5 à 8.1.X    |
+| >= 4.0 && <=4.2       | PHP							  | 7.2.5 à 8.1.X    |
 | 								   | SQL               			    | 5.4 à 5.7       	  |
-
+| >= 4.3                       | PHP							| 7.2.5 à 8.3.2    |
+| 								   | SQL               			    | 5.4 à 5.7       	  |
 
 **Les modules PHP suivant sont obligatoire pour le bon fonctionnement de GRR :**
 * php-gd
