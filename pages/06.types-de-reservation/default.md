@@ -4,6 +4,7 @@ title: 'Types de réservation'
 
 Dans cette partie, sont précisés les différents types de réservation.
 Les types de réservations permettent de différencier par des couleurs dans le planning mais aussi simplifier l'indication dans les stats. Exemple : Cours, réunion, formation.
+**Attention :** Les types de réservations ne sont pas des ressources !
 
 Il est possible de spécifier jusqu'à 702 types (de A à Z, puis AA, jusqu'à ZZ, etc...). Chaque type a une couleur de texte, une couleur de fond, un nom ainsi qu'un ordre d'affichage dans les différents plannings.
 
