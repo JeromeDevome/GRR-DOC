@@ -60,15 +60,25 @@ Choix :
 - les gestionnaire de la ressource
 - tout les utilisateurs
 
-**Activer la fonctionnalité "ressource empruntée/restituée"** : Sous forme de 
+**Activer la fonctionnalité "ressource empruntée/restituée"** : Dans la fiche de réservation vous aurez accès à un formulaire avec les options suivantes :
+- La ressource a été restituée. (Sélectionner également cette option si vous n'utilisez pas cette fonctionnalité)
+- Signaler que la ressource est empruntée dans le cadre de cette réservation.
+- Signaler que la ressource est empruntée dans le cadre de cette réservation et envoyer quotidiennement un mail notifiant le retard.
+ET
+ - Envoyer immédiatement un mail de notification de retard (non restitution dans les délais) 
 
 
-**Activer la fonctionnalité "gestion des clés"**
+**Activer la fonctionnalité "gestion des clés"** : Dans la fiche de réservation vous aurez accès à une case clé emprunté oui/non.
 
 **Qui peut utiliser la fonctionnalité "participant"**
 Choix :
 - personne
 - Il faut obligatoirement être connecté, même en simple visiteur.
 - Il faut obligatoirement être connecté et avoir le statut "utilisateur" 
+
+La fonctionnalité permet à la personne qui pose une réservation de mettre un nombre maximum de participant. Les utilisateurs pourrons s'inscrire à l'évènement.
+_Exemple : Un utilisateur créé une réservation d'une salle pour un cours, il indique 10 participants, les 10 premiers utilisateur cliquant sur "Je participe dans la réservation" sont inscrits_
+
+La fonctionnalité, peut-être utilisé pour des formations, du covoiturage, des concours...
 
 
