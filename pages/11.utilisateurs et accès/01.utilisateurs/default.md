@@ -51,6 +51,9 @@ Inconvénient : Choix unique pour le statut.
 
 **L'utilisateur doit changer son mot de passe à la prochaine connexion:** Uniquement en cas d'authentification locale. Dans ce cas l'utilisateur à la prochaine connexion aura l'obligation de changer son mot de passe.
 
-**État:** Actif/Non actif permet d'autoriser ou non la connexion de l'utilisateur.
+**État (En mode édition):** Actif/Non actif permet d'autoriser ou non la connexion de l'utilisateur. Par défaut l'utilisateur est actif.
 
 **Groupe:**  Un utilisateur peux faire partit de plusieurs groupes [(cf. Groupes)](http://devome.com/GRR/DOC/utilisateurs%20et%20acc%C3%A8s/groupes)
+
+**Différentes option d'affichage (En mode édition):** Par défaut à la création, l'utilisateur hérite des paramétrages de la [configuration générale / Apparence](http://devome.com/GRR/DOC/configuration-generale/apparence).
+
