@@ -3,6 +3,8 @@ title: Utilisateurs
 ---
 
 Un utilisateur, est un compte nommé, permettant de se connecter à GRR.
+En bas de chaque fiche utilisateur vous pouvez y retrouver les différents privilèges (gestionnaire, administrateur...) de ce dernier.
+
 
 ### Création des comptes
 
