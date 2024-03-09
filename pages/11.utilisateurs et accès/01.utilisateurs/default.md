@@ -36,7 +36,7 @@ Inconvénient : Choix unique pour le statut.
 ### Informations utilisateur
 _* Champ obligatoire_
 
-**Identifiant*:** L'identifiant est unique, il est utilisé notamment pour la connexion. Il ne peut-être modifié ! Les espaces sont interdits.
+**Identifiant__*__:** L'identifiant est unique, il est utilisé notamment pour la connexion. Il ne peut-être modifié ! Les espaces sont interdits.
 **Nom*:** Permet d'identifier l'utilisateur
 **Prénom*:** Permet d'identifier l'utilisateur
 **E-mail:** Permet l’envoi de mail automatique (si l'option est activé)
