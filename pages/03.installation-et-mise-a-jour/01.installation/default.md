@@ -33,6 +33,7 @@ GRR, fonction sur un serveur web avec PHP et MySQL. Nous de détaillerons pas l'
 * php-mysqlnd
 * php-xml
 * php-intl `(Obligatoire depuis la version GRR 4.1.0)`
+* php-curl `(Nécessaire seulement si on utilise l'authentification SSO)`
 
 ## 2.2 - Poste client
 
