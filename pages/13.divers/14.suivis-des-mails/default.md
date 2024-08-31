@@ -4,6 +4,8 @@ title: 'Suivis des mails'
 
 Vous pouvez voir l'ensemble des mails envoyé par GRR (exportable sous différents formats). Par défaut GRR conserve 365 jours de logs pour être conforme avec la RGPD. Cette valeur peut être modifié via le fichier "configperso.inc.php" .
 
+!!! Cette fonction est activable/désactivable dans _Configuration générale => Sécurité / Connexions => Divers => Activer les logs sur les mails_
+
 Les logs des mails contiennent :
 
 * Date et heure
