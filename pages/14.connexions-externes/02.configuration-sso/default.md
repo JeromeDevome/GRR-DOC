@@ -18,5 +18,6 @@ Si le serveur hébergeant GRR est derrière un proxy, il peut être nécessaire 
 **Environnement SSO:** Votre type de SSO, ce champ est obligatoire et selon votre choix, différents paramétrages vous seront proposés.
 
 
+Pour rendre actif votre configuration veuillez sélectionner le **statut par défaut des utilisateurs importés** (Visiteur ou Usager).
 
 
