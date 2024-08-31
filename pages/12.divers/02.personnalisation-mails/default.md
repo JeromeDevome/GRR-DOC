@@ -1,5 +1,6 @@
 ---
 title: 'Personnalisation mails'
+media_order: Variables-Mails-GRR.xlsx
 ---
 
 !!! Ceci est une nouveauté GRR 4.2.0
@@ -79,3 +80,7 @@ Les variables disponible dépende de la version de GRR mais aussi du type de mai
 
 **webmasteremail**: Paramètre dans "Configuration générale" : "Adresse email du gestionnaire du site".
 
+
+#### b) Variables et disponibilités
+
+Vous pouvez voir dans la disponibilité de chaque variable pour les différents cas de mail, et la version minimum de GRR requis dans ce tableur [Variables-Mails-GRR.xlsx](Variables-Mails-GRR.xlsx).
