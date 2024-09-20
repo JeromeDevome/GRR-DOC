@@ -18,6 +18,7 @@ title: Contenu
 
 **Affichage des calendriers :** fixe le nombre de calendriers à afficher dans le menu de gauche ou du haut selon la configuration. Par défaut : 1 - Choix de 0 à 6.
 
-**Dates de début et fin des réservations :** pas de réservation possible en dehors de ces dates. **Attention :** Agrandir la plage n'a pas d'incidence mais la réduire entraine la suppression de toute les réservations en de hors de la nouvelle plage définit, **action irréversible**.
+**Dates de début et fin des réservations :** pas de réservation possible en dehors de ces dates.
+!! **Attention :** Agrandir la plage n'a pas d'incidence mais la réduire entraine la suppression de toute les réservations en de hors de la nouvelle plage définit, **action irréversible**.
 
 **Message personnalisé :** affiché dans le bas du bandeau supérieur, il peut contenir du texte, des images, couleurs.
