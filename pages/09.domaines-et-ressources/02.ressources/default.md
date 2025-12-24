@@ -21,7 +21,7 @@ Chaque ressource peut posséder une configuration différente des unes des autre
  * Il faut obligatoirement être connecté et être administrateur général
 * **Déclarer cette ressource temporairement non disponible.** Ceci est alors clairement signalé sur les plannings de réservation (« jour » et « semaine ») et a pour effet de rendre impossible toute nouvelle réservation et toute modification de réservations existantes (sauf pour l'administrateur et les gestionnaires de la ressource).
 * **Rendre visible la fiche de présentation de la ressource dans l'interface publique.** Dans cas il y ara une loupe sur la vue planning, lors d'un clic sur celle-ci la fiche de la ressource s'ouvre. Elle comprend nom, description, capacité, image.
-* **Choisir une image de la ressource pour la fiche de présentation.** Une seule image est possible par ressource.
+* **Choisir une image de la ressource pour la fiche de présentation.** Une seule image est possible par ressource. Extensions autorisées : jpg, png, gif.
 * **Supprimer l'image actuelle de la ressource.** Dans ce cas après validation, l'image sera simplement supprimé du serveur.
 * **Afficher la description complète dans le titre des plannings.** Si la case est cochée, elle s'affichera en dessous du nom et de la description.
 * Une **Description complète** qui permet d'écrire un texte avec mise en forme (liste, gras, surligner, tableau, lien).
