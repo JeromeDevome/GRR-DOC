@@ -3,7 +3,7 @@ title: Accueil
 body_classes: 'title-center title-h1h2'
 ---
 
-# Documentation pour GRR 4.5!
+# Documentation pour GRR 4.3!
 
 'Version e cour de développement
 
