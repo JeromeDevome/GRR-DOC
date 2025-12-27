@@ -2,7 +2,7 @@
 title: 'Pages divers'
 ---
 
-!!! **Nouveauté GRR 4.4.0
+!!! **Nouveauté GRR 4.4.0**
 
 **Pages divers** permet d'ajouter et de gérer des liens vers d'autres pages de GRR ou vers des sites externes.
 
