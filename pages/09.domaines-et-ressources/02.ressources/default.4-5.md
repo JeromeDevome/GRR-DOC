@@ -8,7 +8,7 @@ Chaque ressource peut posséder une configuration différente des unes des autre
 
 #### Renseignements divers
 
-!!! **Nouveauté GRR 4.5.0:** Réservation confidentiel
+!!! **Nouveauté GRR 4.5.0:** Réservation confidentielle
 
 * Un **nom** qui sera afficher dans le planning et les statistiques.
 * Une **description**, elle serra affichée juste en dessous du nom de la ressource dans les vues plannings.
@@ -23,7 +23,7 @@ Chaque ressource peut posséder une configuration différente des unes des autre
  * Il faut obligatoirement être connecté et être administrateur de site
  * Il faut obligatoirement être connecté et être administrateur général
 * **Déclarer cette ressource temporairement non disponible.** Ceci est alors clairement signalé sur les plannings de réservation (« jour » et « semaine ») et a pour effet de rendre impossible toute nouvelle réservation et toute modification de réservations existantes (sauf pour l'administrateur et les gestionnaires de la ressource).
-* **Réservation confidentiel**, permet de limiter les informations disponible aux usager et à l'accès de la fiche du détail de la réservation en dehors de l'utilisateur et du gestionnaire de ressource.
+* **Réservation confidentielle**, permet de limiter les informations disponible aux usager et à l'accès de la fiche du détail de la réservation en dehors de l'utilisateur et du gestionnaire de ressource.
 * **Accès restreint**,  si la case est cochée, seuls les utilisateurs autorisés peuvent réserver cette ressource.
 * **Rendre visible la fiche de présentation de la ressource dans l'interface publique.** Dans cas il y ara une loupe sur la vue planning, lors d'un clic sur celle-ci la fiche de la ressource s'ouvre. Elle comprend nom, description, capacité, image.
 * **Choisir une image de la ressource pour la fiche de présentation.** Une seule image est possible par ressource. Extensions autorisées : jpg, png, gif.
