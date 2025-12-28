@@ -4,8 +4,6 @@ title: Définitions
 
 Voici quelques définitions pour mieux comprendre le lexique de GRR.
 
-## Glossaire
-
 ### Ressource
 Une ressource est un élément qui peut être réservé, par exemple :
 - une salle ;
