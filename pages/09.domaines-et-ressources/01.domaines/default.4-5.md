@@ -6,13 +6,15 @@ Un domaine est un groupe de ressource. Par défaut un domaine est accessible à 
 
 **Chaque domaine à des propriétés différentes.**
 
-### Renseignements divers :
+#### Renseignements divers :
+
 * Un **nom**, qui permet de le désigner à l'ensemble des utilisateurs.
 * Un **ordre d'affichage**. L'ordre d'affichage est l'ordre dans le menu est les affichages avec l'ensemble des ressources.
 * Un **accès restreint** ou non : Si le domaine est en accès restreint, par défaut défaut les utilisateurs (hors administrateurs), n'auront pas de visibilité sur le domaine et les ressources ce trouvant à l'intérieur. Il va falloir fournir les autorisations d'accès aux utilisateurs dans _Utilisateurs et accès / Accès aux domaines restreint_.
 * **Domaine par défaut pour l'adresse IP client suivante** : Imaginons que **GRR** est basé en cloud, que vous ayez les 3 domaines correspondant à 3 sites distants (Lille, Paris, Marseille). Si je configure pour chaque domaine, l'IP de mon site. A chaque fois que je suis à Lille, il m'affichera les ressources de Lille, pareil pour Paris et Marseille. L'IP peut-être public ou privé selon votre installation. Elle accepte les masque sous forme 192.168.1.0/24. L'administrateur ainsi que l'utilisateur ne doivent pas avoir défini un domaine par défaut dans la page de configuration générale.
 
 #### Configuration de l'affichage des plannings des ressources de ce domaine
+
 * Début de la semaine : Premier jour de la semaine. Sur les plannings hebdomadaires, les semaines commencent par cette journée.
 * Sélection des jours à afficher : Choix multiple entre les 7 jours de la semaine. Si par exemple les ressources ne peuvent être réservé le dimanche, décoché "dimanche".
 
@@ -23,8 +25,6 @@ Un domaine est un groupe de ressource. Par défaut un domaine est accessible à 
 La fonctionnalité **Fichier joint** permet aux utilisateurs autorisés de téléverser des fichiers associés à une réservation, ainsi que de consulter les fichiers joints, en fonction des droits définis.
 
 Le téléversement et la consultation des fichiers se font directement depuis la **page de consultation d'une réservation**.
-
-#### Droits d'accès
 
 L'utilisation de la fonctionnalité repose sur deux droits distincts.
 
