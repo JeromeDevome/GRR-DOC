@@ -6,7 +6,7 @@ Un domaine est un groupe de ressource. Par défaut un domaine est accessible à 
 
 **Chaque domaine à des propriétés différentes.**
 
-#### Renseignements divers :
+### Renseignements divers :
 * Un **nom**, qui permet de le désigner à l'ensemble des utilisateurs.
 * Un **ordre d'affichage**. L'ordre d'affichage est l'ordre dans le menu est les affichages avec l'ensemble des ressources.
 * Un **accès restreint** ou non : Si le domaine est en accès restreint, par défaut défaut les utilisateurs (hors administrateurs), n'auront pas de visibilité sur le domaine et les ressources ce trouvant à l'intérieur. Il va falloir fournir les autorisations d'accès aux utilisateurs dans _Utilisateurs et accès / Accès aux domaines restreint_.
