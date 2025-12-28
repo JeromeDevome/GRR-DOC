@@ -65,3 +65,5 @@ Le premier type sera **supprimé**, et **toutes les réservations associées** s
 ### Obligation du type de réservation
 
 Le **type de réservation est obligatoire**
+
+!!! Astuce : Si vous ne souhaitez pas utiliser la fonction, laissé un seul type de réservation. Ce dernier sera donc sélectionné par défaut lors de la réservation.
