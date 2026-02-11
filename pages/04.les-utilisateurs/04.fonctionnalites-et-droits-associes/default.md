@@ -2,6 +2,16 @@
 title: 'Fonctionnalités et droits associés'
 ---
 
+### Les privilèges
+
+    S: L'utilisateur administre un site
+    A: L'utilisateur administre un domaine
+    R: L'utilisateur à accès à un domaine restreint
+    G: L'utilisateur administre une ressource
+    U: L'utilisateur gère les utilisateurs
+    E: L'utilisateur reçoit des mails automatiques
+    
+
 ### Table des fonctionnalités selon statut et rôles
 
 |Fonctionnalités|Administrateurs|Administrateur restreint de sites _(module "multi-sites" activé)_|Administrateur restreint de domaines|Gestionnaires de ressources|Gestionnaires d'utilisateurs|Usagers|Visiteurs|
