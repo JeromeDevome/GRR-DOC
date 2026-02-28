@@ -20,8 +20,18 @@ Si le serveur hébergeant GRR est derrière un proxy, il peut être nécessaire 
 
 Pour rendre actif votre configuration veuillez sélectionner le **statut par défaut des utilisateurs importés** (Visiteur ou Usager).
 
-> ⚠️ Depuis GRR 4.5, les cookies sont configurés avec le paramètre `SameSite=Strict`.  
-> Pour utiliser le SSO avec un autre domaine, il est nécessaire de modifier ce paramètre dans le fichier `configperso.inc.php`.
-> En y insérant par exemple $gSameSite = "None"; 
+> ⚠️ Depuis GRR 4.5.0, les cookies sont configurés avec le paramètre `SameSite=Strict`.  
+> Pour utiliser le SSO avec un autre domaine, il est nécessaire de modifier ce paramètre dans le fichier `configperso.inc.php` (version GRR 4.5.3 minimum)
+> En y insérant par exemple `$gSameSite = "None"`; 
+
+!!! Nouveauté GRR 4.5.3 : Possibilité de configurer les attributs depuis l'administration
+
+### b) Attributs CAS
 
 
+* **Nom:**
+* **Prénom:**
+* **Langue:**
+* **Code de la fonction:**
+* **Libellé de la fonction:**
+* **Email:**
