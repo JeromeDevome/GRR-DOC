@@ -2,9 +2,6 @@
 title: 'Configuration SSO'
 ---
 
-> ⚠️ Depuis GRR 4.5, les cookies sont configurés avec le paramètre `SameSite=Strict`.  
-> Pour utiliser le SSO avec un autre domaine, il est nécessaire de modifier ce paramètre dans le fichier `configperso.inc.php`.
-
 Depuis la version 1.7, GRR est prévu pour fonctionner dans un environnement CAS SSO.
 
 ### a) Paramétrage
@@ -22,5 +19,9 @@ Si le serveur hébergeant GRR est derrière un proxy, il peut être nécessaire 
 
 
 Pour rendre actif votre configuration veuillez sélectionner le **statut par défaut des utilisateurs importés** (Visiteur ou Usager).
+
+> ⚠️ Depuis GRR 4.5, les cookies sont configurés avec le paramètre `SameSite=Strict`.  
+> Pour utiliser le SSO avec un autre domaine, il est nécessaire de modifier ce paramètre dans le fichier `configperso.inc.php`.
+> En y insérant par exemple $gSameSite = "None"; 
 
 
