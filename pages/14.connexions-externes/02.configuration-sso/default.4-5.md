@@ -28,10 +28,11 @@ Pour rendre actif votre configuration veuillez sélectionner le **statut par dé
 
 ### b) Attributs CAS
 
+Permet de faire correspondre avec les champs de votre serveur avec la base GRR (pour que la prise en compte du service CAS soit opérationnelle, il est nécessaire de configurer également votre serveur CAS) :
 
-* **Nom:**
-* **Prénom:**
-* **Langue:**
-* **Code de la fonction:**
-* **Libellé de la fonction:**
-* **Email:**
+* **Nom**
+* **Prénom**
+* **Langue**
+* **Code de la fonction**
+* **Libellé de la fonction**
+* **Email**
