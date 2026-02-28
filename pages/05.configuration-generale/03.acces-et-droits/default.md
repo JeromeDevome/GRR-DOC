@@ -36,6 +36,15 @@ Choix possibles :
 * Il faut obligatoirement être connecté et être administrateur de site
 * Il faut obligatoirement être connecté et être administrateur général
 
+### Qui peut accéder à la page d'édition d'une ressource ?
+!!! Nouveauté GRR 4.5.3
+Permet de modifier la ressource.
+
+Choix possibles :
+* Il faut obligatoirement être connecté et être au moins gestionnaire d'une ressource
+* Il faut obligatoirement se connecter et être au moins administrateur du domaine
+* Il faut obligatoirement être connecté et être administrateur de site
+* Il faut obligatoirement être connecté et être administrateur général
 
 ### Accès à l'outil de recherche & stat
 
