@@ -3,7 +3,7 @@ title: 'Personnalisation mails'
 media_order: Variables-Mails-GRR.xlsx
 ---
 
-!!! Ceci est une nouveauté GRR 4.2.0
+!!! Version 4.6.0 : ajout de trois nouvelles variables : ressourcedescription, ressourcecomment et ressourcecapacity.
 
 Vous pouvez ici personnaliser les mails (titre et sujet) envoyés aux utilisateurs pour chaque évènement et chaque langue de GRR. 
 Vous pouvez y modifier le texte tout en utilisant des variables (cf. ci dessous) ainsi qu'ajouter des styles à vos textes.
@@ -73,6 +73,12 @@ Les variables disponible dépende de la version de GRR mais aussi du type de mai
 **resatype**: Type de la réservation.
 
 **ressource**: Ressource concernant la ressource.
+
+**ressourcedescription**: Description de la ressource (Paramètre dans la configuration de la ressource)
+
+**ressourcecomment**: Description complète de la ressource (Paramètre dans la configuration de la ressource)
+
+**ressourcecapacity**: Capacité de la ressource (Paramètre dans la configuration de la ressource)
 
 **urldetail**: Lien vers la réservation. Attention utilise le paramètre dans "Configuration générale" => "Adresse (URL) exacte de GRR".
 
