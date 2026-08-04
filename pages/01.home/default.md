@@ -5,7 +5,7 @@ body_classes: 'title-center title-h1h2'
 
 # Documentation pour GRR 4.6!
 
-'Version e cour de développement
+Version e cour de développement
 
 GRR est un système de Gestion et de Réservations de Ressources.
 
