@@ -21,6 +21,8 @@ Il existe deux méthodes pour l'envoi de mail :
 1. La méthode "smtp" permettant de se connecter à un serveur de mail distant ; il faudra donc renseigner les différentes informations (serveur smtp, utilisateur mot de passe...)
 2. La méthode "mail" lorsque le serveur de mail est local (aucune configuration dans GRR)
 
+!!! Dans l'offre MyGRR Cloud, si vous utilisez la méthode « mail », l'adresse d'expédition sera noreply@mygrr.net
+
 Dans les deux cas vous pouvez saisir votre adresse mail dans le champ "Email de test". Si votre configuration est bonne après avoir cliqué sur "Enregistrer" vous recevrez un mail sur l'adresse saisie. Le champ "Email de test" est réinitialisé à chaque validation.
 
 Vous avez une option : **Mettre les destinataires en copie cachée lorsqu'un message est adressé à plusieurs personnes.**
